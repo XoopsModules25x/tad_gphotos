@@ -18,7 +18,6 @@
  **/
 
 xoops_loadLanguage('main', 'tadtools');
-define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS輕鬆架</a>下載。');
 
 define('_MA_TADGPHOTOS_ALBUM_ID', '相簿ID');
 define('_MA_TADGPHOTOS_ALBUM_URL', '相簿網址');
@@ -47,3 +46,21 @@ define('_MA_TADGPHOTOS_IMAGE_HEIGHT', '相片高度');
 define('_MA_TADGPHOTOS_IMAGE_URL', '相片網址');
 define('_MA_TADGPHOTOS_IMAGE_DESCRIPTION', '相片說明');
 define('_MA_TADGPHOTOS_IMAGE_TOTAL', '（共 %s 張相片）');
+define('_MD_TADGPHOTOS_ADD', '新增Google相簿');
+define('_MD_TADGPHOTOS_RE_GET', '重新擷取相片');
+define('_MD_TADGPHOTOS_CSN', '所屬分類');
+define('_MD_TADGPHOTOS_CATE_COUNT', '有 %s 個相簿');
+define('_MD_TADGPHOTOS_UNCATEGORIZED', '未分類');
+define('_MD_TADGPHOTOS_NUMBER_OF_PHOTOS', '相片數');
+define('_MD_TADGPHOTOS_HOME', '相簿列表');
+define('_MD_TADGPHOTOS_NO_ALBUM_YET', '尚無相簿');
+define('_MD_TADGPHOTOS_ADD_CATE', '建立新分類');
+define('_MD_TADGPHOTOS_CATE_FORM', '編輯分類');
+define('_MD_TADGPHOTOS_CATE_TITLE', '分類標題');
+define('_MD_TADGPHOTOS_OF_CSN', '所屬分類');
+define('_MD_TADGPHOTOS_CATE_DESCRIPTION', '分類說明');
+
+define('_MD_TADGPHOTOS_URL_ALERT', '請勿使用「https://photos.app.goo.gl」分享網址。\n請使用瀏覽器列上的網址，網址開頭應為「https://photos.google.com/share」');
+define('_MD_TADGPHOTOS_SORT', '相簿排序方式');
+define('_MD_TADGPHOTOS_SORT_BY_TITLE', '依照相簿名稱排序');
+define('_MD_TADGPHOTOS_SORT_BY_CUSTOM', '依手動拖曳排序');

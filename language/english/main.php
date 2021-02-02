@@ -18,8 +18,6 @@
  **/
 
 xoops_loadLanguage('main', 'tadtools');
-define('_TAD_NEED_TADTOOLS', "This module needs TadTools module. You can download TadTools from <a href='http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1' target='_blank'>XOOPS Easy Go</a>.");
-
 define('_MA_TADGPHOTOS_ALBUM_ID', 'Album ID');
 define('_MA_TADGPHOTOS_ALBUM_URL', 'Photo Album URL');
 define('_MA_TADGPHOTOS_UID', 'Publisher');
@@ -47,3 +45,22 @@ define('_MA_TADGPHOTOS_IMAGE_HEIGHT', 'Photo Height');
 define('_MA_TADGPHOTOS_IMAGE_URL', 'Photo URL');
 define('_MA_TADGPHOTOS_IMAGE_DESCRIPTION', 'Photo description');
 define('_MA_TADGPHOTOS_IMAGE_TOTAL', '(Total %s photos)');
+define('_MD_TADGPHOTOS_ADD', 'Add Google Album');
+define('_MD_TADGPHOTOS_RE_GET', 're-capture photo');
+define('_MD_TADGPHOTOS_CSN', 'Category');
+define('_MD_TADGPHOTOS_CATE_COUNT', 'There are %s of photo albums');
+define('_MD_TADGPHOTOS_UNCATEGORIZED', 'uncategorized');
+define('_MD_TADGPHOTOS_NUMBER_OF_PHOTOS', 'Number of photos');
+define('_MD_TADGPHOTOS_HOME', 'Album list');
+define('_MD_TADGPHOTOS_NO_ALBUM_YET', 'No photo album yet');
+define('_MD_TADGPHOTOS_ADD_CATE', 'Creation of new categories');
+define('_MD_TADGPHOTOS_CATE_FORM', 'Editing Categories');
+define('_MD_TADGPHOTOS_CATE_TITLE', 'Classification Title');
+define('_MD_TADGPHOTOS_OF_CSN', 'category');
+define('_MD_TADGPHOTOS_CATE_DESCRIPTION', 'Category Description');
+
+define('_MD_TADGPHOTOS_URL_ALERT', 'Please do not use "https://photos.app.goo.gl" to share the website. \nPlease use the URL listed on your browser, which should start with "https://photos.google.com/share".');
+
+define('_MD_TADGPHOTOS_SORT', 'Album sorting method');
+define('_MD_TADGPHOTOS_SORT_BY_TITLE', 'sort by album name');
+define('_MD_TADGPHOTOS_SORT_BY_CUSTOM', 'Sort by manual drag and drop');
